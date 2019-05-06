@@ -79,7 +79,7 @@
         }
         .fa-angle-left {
             color: yellow;
-            padding-left: 13%;
+            padding-left: 5%;
             margin: 20px;
         }
         .fa-angle-right {
@@ -130,7 +130,8 @@
     .box-l-section-1 {
         width: 46%;
         align-items: center;
-        margin: 0 40px;
+        margin-left: 15px;
+        margin-right: 40px;
 
         h1 {
             font-family: $font-section-h1;
@@ -204,13 +205,13 @@
     .box-l-section-2 {
         width: 54%;
         margin-top: 67px;
-        margin-left: 25px;
+        margin-left: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     
         .sect-2-img {
-            width: 540px;
+            width: 550px;
             height: 486px;
             background-image: url(../img/sect-222.jpg);
             background-size: auto;
@@ -270,7 +271,8 @@
         justify-content: space-between;
         h4 {
             color: white;
-            margin-left: 45px;
+            margin-left: 30px;
+            font-weight: 400;
         }
         .btn-contact-now {
             width: 180px;

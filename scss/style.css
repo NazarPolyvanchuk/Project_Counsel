@@ -3,24 +3,26 @@
   margin: 0; }
 
 .unbreakable-container {
-  padding-right: 23%; }
+  padding-right: 24.5%;
+  margin-left: 15px; }
 
 .unbreakable {
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
-  letter-spacing: -.07em;
+  letter-spacing: 1em;
   color: #fff; }
 
 .ks {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
+  padding-left: 1.5px;
   line-height: 1;
   -webkit-transition: all .1s ease-in-out;
   transition: all 0.1s cubic-bezier(0.19, 1, 0.22, 1) 1.5s;
   -webkit-transform: translateX(-1000%);
   -ms-transform: translateX(-1000%);
   transform: translateX(-1000%);
-  letter-spacing: -1px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: white; }
 
@@ -47,7 +49,7 @@ span {
   letter-spacing: -.07em; }
 
 .animate .un {
-  font-size: 40px;
+  font-size: 45px;
   -webkit-transform: scale(1.5, 1.5);
   -ms-transform: scale(1.5, 1.5);
   transform: scale(1.5, 1.5);
@@ -55,7 +57,7 @@ span {
   filter: alpha(opacity=100); }
 
 .animate .break {
-  font-size: 40px;
+  font-size: 45px;
   -webkit-transform: scale(1.5, 1.5);
   -ms-transform: scale(1.5, 1.5);
   transform: scale(1.5, 1.5);
@@ -122,7 +124,7 @@ header {
       margin-bottom: 1px; }
     .bottom .box-left .fa-angle-left {
       color: yellow;
-      padding-left: 13%;
+      padding-left: 5%;
       margin: 20px; }
     .bottom .box-left .fa-angle-right {
       color: yellow;
@@ -164,7 +166,8 @@ header {
   .section-1 .box-l-section-1 {
     width: 46%;
     align-items: center;
-    margin: 0 40px; }
+    margin-left: 15px;
+    margin-right: 40px; }
     .section-1 .box-l-section-1 h1 {
       font-family: "Montserrat", sans-serif;
       font-size: 30px;
@@ -225,12 +228,12 @@ header {
     .section-2-bg .section-2 .box-l-section-2 {
       width: 54%;
       margin-top: 67px;
-      margin-left: 25px;
+      margin-left: 10px;
       display: flex;
       justify-content: center;
       align-items: center; }
       .section-2-bg .section-2 .box-l-section-2 .sect-2-img {
-        width: 540px;
+        width: 550px;
         height: 486px;
         background-image: url(../img/sect-222.jpg);
         background-size: auto;
@@ -280,7 +283,8 @@ header {
     justify-content: space-between; }
     .section-3 .contact-now h4 {
       color: white;
-      margin-left: 45px; }
+      margin-left: 30px;
+      font-weight: 400; }
     .section-3 .contact-now .btn-contact-now {
       width: 180px;
       height: 40px;
