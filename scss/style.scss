@@ -98,7 +98,7 @@
             font-size: $size-info-h1;
             color: $color-info-h1;
             font-weight: bold;
-            transform: translate(90%, -22%);
+            transform: translate(91%, -19%);
             text-align: right;
         }
         a {
@@ -108,15 +108,13 @@
             font-weight: bold;
             text-decoration: underline;
             text-transform: uppercase;
-            transform: translate(52%, 325%);
+            transform: translate(52%, 340%);
         }
         .ring {
             display: flex;
             justify-content: flex-end;
             align-items: center;
             padding-right: 20px;
-            transform: translate(1%, -1%);
-            
         }
     }
 }
@@ -162,6 +160,9 @@
             text-decoration: underline;
             margin: 15px;
         }
+        a:hover {
+            color: yellow;
+        }
     }
     .box-r-section-1 {
         width: 54%;
@@ -203,7 +204,7 @@
     .box-l-section-2 {
         width: 54%;
         margin-top: 67px;
-        margin-left: 36px;
+        margin-left: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -249,6 +250,44 @@
             text-decoration: underline;
             margin: 15px;
         }
+        a:hover {
+            color: yellow;
+        }
     }
 }
+}
+.section-3 {
+    width: 100%;
+    height: 90px;
+    background: #002c66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .contact-now {
+        width: 1170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4 {
+            color: white;
+            margin-left: 45px;
+        }
+        .btn-contact-now {
+            width: 180px;
+            height: 40px;
+            background: yellow;
+            border-radius: 5px 5px;
+            border: none;
+            color: #002c66;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 19px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .btn-contact-now:hover {
+            width: 190px;
+            height: 45px;
+        }
+    }
 }

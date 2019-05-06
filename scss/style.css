@@ -138,7 +138,7 @@ header {
       font-size: 40px;
       color: white;
       font-weight: bold;
-      transform: translate(90%, -22%);
+      transform: translate(91%, -19%);
       text-align: right; }
     .bottom .box-right a {
       font-family: "Montserrat", sans-serif;
@@ -147,13 +147,12 @@ header {
       font-weight: bold;
       text-decoration: underline;
       text-transform: uppercase;
-      transform: translate(52%, 325%); }
+      transform: translate(52%, 340%); }
     .bottom .box-right .ring {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      padding-right: 20px;
-      transform: translate(1%, -1%); }
+      padding-right: 20px; }
 
 .section-1 {
   width: 1170px;
@@ -190,6 +189,8 @@ header {
       text-transform: uppercase;
       text-decoration: underline;
       margin: 15px; }
+    .section-1 .box-l-section-1 a:hover {
+      color: yellow; }
   .section-1 .box-r-section-1 {
     width: 54%;
     display: flex;
@@ -224,7 +225,7 @@ header {
     .section-2-bg .section-2 .box-l-section-2 {
       width: 54%;
       margin-top: 67px;
-      margin-left: 36px;
+      margin-left: 25px;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -262,5 +263,38 @@ header {
         text-transform: uppercase;
         text-decoration: underline;
         margin: 15px; }
+      .section-2-bg .section-2 .box-r-section-2 a:hover {
+        color: yellow; }
+
+.section-3 {
+  width: 100%;
+  height: 90px;
+  background: #002c66;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .section-3 .contact-now {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .section-3 .contact-now h4 {
+      color: white;
+      margin-left: 45px; }
+    .section-3 .contact-now .btn-contact-now {
+      width: 180px;
+      height: 40px;
+      background: yellow;
+      border-radius: 5px 5px;
+      border: none;
+      color: #002c66;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 19px;
+      font-weight: bold;
+      margin-right: 20px; }
+    .section-3 .contact-now .btn-contact-now:hover {
+      width: 190px;
+      height: 45px; }
 
 /*# sourceMappingURL=style.css.map */
