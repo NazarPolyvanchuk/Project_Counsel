@@ -160,7 +160,7 @@ span {
     background-color: #002c66;
     z-index: 1000;
     overflow: auto;
-    line-height: 0.5; }
+    line-height: 0.2; }
 
   .menu__links-item {
     display: block;
@@ -180,7 +180,7 @@ span {
   #menu__links {
     margin-top: 140px;
     width: 100vw;
-    height: 79%;
+    height: 70%;
     text-align: center; }
 
   .dropdown {
