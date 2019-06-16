@@ -1496,7 +1496,7 @@ header {
       .section-6 .box-l-section-6 .square-2 {
         width: 425px;
         height: 320px;
-        transform: translate(-152px, 60px);
+        transform: translate(-62px, 111px);
         background-size: contain; } }
 @media screen and (max-width: 378px) {
   .section-6 {
@@ -1518,7 +1518,7 @@ header {
       .section-6 .box-l-section-6 .square-2 {
         width: 390px;
         height: 320px;
-        transform: translate(-170px, 52px);
+        transform: translate(-62px, 111px);
         background-size: contain; } }
 @media screen and (max-width: 320px) {
   .section-6 {
@@ -1540,7 +1540,7 @@ header {
       .section-6 .box-l-section-6 .square-2 {
         width: 330px;
         height: 320px;
-        transform: translate(-226px, 55px);
+        transform: translate(-62px, 111px);
         background-size: contain; } }
 @media screen and (max-width: 1024px) {
   .section-7 {
@@ -1750,9 +1750,6 @@ header {
 @media screen and (max-width: 426px) {
   #movie {
     background: url("img/sect-2.jpg") center;
-    background-size: cover; }
-
-  video {
-    display: none; } }
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */
