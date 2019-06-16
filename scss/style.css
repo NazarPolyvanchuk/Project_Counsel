@@ -5,7 +5,8 @@
 .unbreakable-container {
   width: 200px;
   margin-left: 40px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: -10px; }
 
 .unbreakable {
   font-family: 'Montserrat', sans-serif;
@@ -106,6 +107,10 @@ span {
 .menu__links-item:hover {
   color: yellow; }
 
+.dropdown {
+  display: inline-block;
+  padding-right: 20px; }
+
 .menu.menu_state_open .menu__icon span:nth-child(1) {
   top: 18px;
   width: 0%;
@@ -122,7 +127,7 @@ span {
   width: 0%;
   left: 50%; }
 
-.menu.menu_state_open .menu__links {
+.menu.menu_state_open #menu__links {
   display: block; }
 
 @media screen and (max-width: 999px) {
@@ -145,7 +150,7 @@ span {
     display: block;
     width: 100vw; } }
 @media screen and (max-width: 999px) {
-  .menu__links {
+  #menu__links {
     position: absolute;
     display: none;
     top: 0;
@@ -154,7 +159,8 @@ span {
     margin-top: 110px;
     background-color: #002c66;
     z-index: 1000;
-    overflow: auto; }
+    overflow: auto;
+    line-height: 0.5; }
 
   .menu__links-item {
     display: block;
@@ -162,22 +168,26 @@ span {
     text-align: center;
     color: #ffffff; } }
 @media (min-width: 768px) and (max-width: 869px) {
-  .menu__links {
+  #menu__links {
     margin-top: 135px; } }
 @media (max-width: 768px) {
-  .menu__links {
+  #menu__links {
     margin-top: 177px; } }
 @media (max-width: 471px) {
-  .menu__links {
+  #menu__links {
     margin-top: 165px; } }
 @media (max-width: 399px) {
-  .menu__links {
+  #menu__links {
     margin-top: 140px;
     width: 100vw;
     height: 79%;
-    text-align: center; } }
+    text-align: center; }
+
+  .dropdown {
+    padding-left: 40px;
+    padding-top: 25px; } }
 @media (max-width: 300px) {
-  .menu__links-item {
+  #menu__links-item {
     display: block;
     width: 50vw; } }
 header {
@@ -194,7 +204,8 @@ header {
   width: 1170px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 10px; }
 
 .bottom {
   padding-top: 3%;
@@ -237,7 +248,7 @@ header {
       font-size: 40px;
       color: white;
       font-weight: bold;
-      transform: translate(91%, -19%);
+      transform: translate(91%, -13%);
       text-align: right; }
     .bottom .box-right a {
       font-family: "Montserrat", sans-serif;
@@ -246,12 +257,13 @@ header {
       font-weight: bold;
       text-decoration: underline;
       text-transform: uppercase;
-      transform: translate(52%, 340%); }
+      transform: translate(52%, 378%); }
     .bottom .box-right .ring {
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      padding-right: 20px; }
+      padding-right: 20px;
+      margin-top: 20px; }
 
 .section-1 {
   width: 1170px;
@@ -509,11 +521,24 @@ header {
       width: 500px;
       height: 320px;
       transform: translate(-117px, 104px); }
+      .section-6 .box-l-section-6 .square-2 #movie {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1; }
+    @supports (object-fit: cover) {
+      .section-6 .box-l-section-6 #movie-bg > video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; } }
   .section-6 .box-r-section-6 {
     width: 50%;
     align-items: center;
     margin-left: 15px;
-    margin-right: 40px; }
+    margin-right: 40px;
+    margin-bottom: 23px; }
     .section-6 .box-r-section-6 h1 {
       font-family: "Montserrat", sans-serif;
       font-size: 30px;
@@ -550,7 +575,7 @@ header {
   justify-content: center; }
   .section-7 .box-section-7 {
     height: 540px;
-    width: 1170px;
+    width: 100%;
     padding-top: 6%;
     margin: 0 auto;
     text-align: center; }
@@ -674,6 +699,47 @@ header {
       .section-9 .box-section-9 .social-networks .fa-instagram {
         color: white;
         margin-left: 10px; }
+      .section-9 .box-section-9 .social-networks .fa-instagram:hover {
+        color: #F77737; }
+      .section-9 .box-section-9 .social-networks .fa-google-plus-g:hover {
+        color: #FD1D1D; }
+      .section-9 .box-section-9 .social-networks .fa-twitter:hover {
+        color: #00acee; }
+      .section-9 .box-section-9 .social-networks .fa-facebook-f:hover {
+        color: #3b5998; }
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: #4696ff;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  font-weight: bold;
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 5px 25px;
+  /* Some padding */
+  border-radius: 60px;
+  /* Rounded corners */
+  font-size: 40px;
+  /* Increase font size */ }
+
+#myBtn:hover {
+  background-color: #53b2ff;
+  /* Add a dark-grey background on hover */ }
 
 @media only screen and (max-width: 1260px) {
   .top {
@@ -1651,5 +1717,42 @@ header {
           height: 200px;
           background-size: contain;
           background-repeat: no-repeat; } }
+@media screen and (max-width: 1170px) {
+  #myBtn {
+    bottom: 50px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 1024px) {
+  #myBtn {
+    bottom: 50px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 768px) {
+  #myBtn {
+    bottom: 50px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 460px) {
+  #myBtn {
+    bottom: 50px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 378px) {
+  #myBtn {
+    bottom: 40px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 320px) {
+  #myBtn {
+    bottom: 40px;
+    /* Place the button at the bottom of the page */
+    right: 50px; } }
+@media screen and (max-width: 426px) {
+  #movie {
+    background: url("img/sect-2.jpg") center;
+    background-size: cover; }
+
+  video {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

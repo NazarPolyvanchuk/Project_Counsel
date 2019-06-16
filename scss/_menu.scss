@@ -45,6 +45,11 @@
  .menu__links-item:hover {
      color: yellow;
  }
+
+ .dropdown {
+   display: inline-block;
+   padding-right: 20px;
+ }
 //  -----
  .menu.menu_state_open .menu__icon span:nth-child(1) {
    top: 18px;
@@ -66,7 +71,7 @@
    left: 50%;
  }
  
- .menu.menu_state_open .menu__links {
+ .menu.menu_state_open #menu__links {
    display: block;  
  }
 
@@ -103,7 +108,7 @@
        }
  
  
-   .menu__links {
+   #menu__links {
      position: absolute;
      display: none;
      top: 0;
@@ -113,6 +118,7 @@
      background-color: #002c66;
      z-index: 1000;
      overflow: auto;
+     line-height: 0.5;
    }
    
    .menu__links-item {
@@ -123,30 +129,34 @@
    }
  }
  @media (min-width:768px) and (max-width:869px) {
-   .menu__links {
+   #menu__links {
      margin-top: 135px;
    }
  }
  @media (max-width:768px) {
-   .menu__links {
+   #menu__links {
      margin-top: 177px;
    }
  }
  @media (max-width:471px) {
-   .menu__links {
+   #menu__links {
      margin-top: 165px;
    }
  }
  @media (max-width:399px) {
-   .menu__links {
+   #menu__links {
     margin-top: 140px;
     width: 100vw;
     height: 79%;
     text-align: center;
    }
+   .dropdown {
+     padding-left: 40px;
+     padding-top: 25px;
+   }
  }
  @media (max-width: 300px){
-   .menu__links-item{
+   #menu__links-item{
      display: block;
      width: 50vw;
    }

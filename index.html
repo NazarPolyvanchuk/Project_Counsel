@@ -34,20 +34,22 @@
                         <span></span>
                     </div>
                       
-                    <div class="menu__links">
+                    <div id="menu__links">
                         <a class="menu__links-item" href="#about">ABOUT</a>
                         <a class="menu__links-item" href="#services">SERVICES</a>
                         <a class="menu__links-item" href="#why-we-best">WHY WE BEST</a>
                         <a class="menu__links-item" href="#testimonials">TESTIMONIALS</a>
                         <a class="menu__links-item" href="#contact">CONTACT</a>
-                        <!-- <li class="nav-item dropdown">
+                         
+                            <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown " role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <img src="img/header/english.png" alt="">
+                                <img src="img/header/english.png" alt="">
                                 </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">English</a>
-                                <a class="dropdown-item" href="#">Ukraine</a>
-                            </div> -->
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">Ukraine</a>
+                                </div>
+                            </li>
                     </div>
                 </div>
             </div>
@@ -123,17 +125,17 @@
         </div>
         <div class="box-bottom-section-4">
             <div class="box-sec-4">
-                <img class="img-box-sec-4 wow flipInY" src="img/image_part_001.jpg" alt="">
+                <img class="img-box-sec-4 wow flipInY" src="img/111.jpg" alt="">
                 <h2 class="wow fadeInUp">Turnaround consulting</h2>
                 <p class="wow fadeInUp">Companies dislike the term 'turnaround consulting' because it represents failure. The truth is that turnaround consulting represents success.</p>
             </div>
             <div class="box-sec-4">
-                <img class="img-box-sec-4 wow flipInY" src="img/image_part_002.jpg" alt="">
+                <img class="img-box-sec-4 wow flipInY" src="img/ФІВА.jpg" alt="">
                 <h2 class="wow fadeInUp">Bonds & commodities</h2>
                 <p class="wow fadeInUp">Companies dislike the term 'turnaround consulting' because it represents failure. The truth is that turnaround consulting represents success.</p>
             </div>
             <div class="box-sec-4">
-                <img class="img-box-sec-4 wow flipInY" src="img/image_part_003.jpg" alt="">
+                <img class="img-box-sec-4 wow flipInY" src="img/ЧСМ.jpg" alt="">
                 <h2 class="wow fadeInUp">Audit & assurance</h2>
                 <p class="wow fadeInUp">Companies dislike the term 'turnaround consulting' because it represents failure. The truth is that turnaround consulting represents success.</p>
             </div> 
@@ -169,9 +171,11 @@
         <div class="box-l-section-6">
             <div class="square-1 wow fadeIn">
                 <div class="square-2">
-                    <video  width="500px" height="320px";autoplay controls>
-                        <source src="img/Pexels Videos 2769.mp4" type='video/mp4;'>
-                    </video>
+                        <div id="movie-bg">
+                            <video autoplay muted loop poster="img/sect-2.jpg" id="myVideo">
+                            <source src="img/Pexels Videos 2769.mp4" type="video/mp4">
+                            </video>
+                            </div>
                 </div>
             </div>
         </div>
@@ -266,24 +270,27 @@
     <!-- ----- -->
 
     <!-- Section 9 -->
-    <div class="section-9">
+    <div class="section-9" id="contact">
         <div class="box-section-9">
             <h6>Copyright  © <a href="">Symu.cc</a></h6>
             <div class="social-networks">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-instagram"></i>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=uk"><i class="fab fa-twitter"></i></a>
+                <a href="https://plus.google.com/"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.instagram.com/?hl=uk"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
     <!-- ----- -->
 
-
+    <!-- Go Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    <!-- ----- -->
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

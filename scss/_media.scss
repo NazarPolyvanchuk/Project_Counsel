@@ -1304,6 +1304,51 @@
         }
     }
 }
+@media screen and (max-width:1170px) {
+    #myBtn {
+        bottom: 50px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
+@media screen and (max-width:1024px) {
+    #myBtn {
+        bottom: 50px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
+@media screen and (max-width:768px) {
+    #myBtn {
+        bottom: 50px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
+@media screen and (max-width:460px) {
+    #myBtn {
+        bottom: 50px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
+@media screen and (max-width:378px) {
+    #myBtn {
+        bottom: 40px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
+@media screen and (max-width:320px) {
+    #myBtn {
+        bottom: 40px; /* Place the button at the bottom of the page */
+        right: 50px;
+    }
+}
 // -----
+@media screen and (max-width: 426px) {
+    #movie {
+        background: url("img/sect-2.jpg") center;
+        background-size: cover;
+    }
+    video {
+    display: none;
+    }
+}
 
 
