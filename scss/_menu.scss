@@ -80,8 +80,10 @@
    .menu__icon{
      display: inline-block;
      margin-top: 50px;
-     margin-right: 20px;
-     
+     margin-right: 3px;
+   }
+   .unbreakable-container {
+     margin-left: 4px;
    }
    @media screen and (max-width: 999px) {
      .conctainer{
@@ -148,7 +150,7 @@
    #menu__links {
     margin-top: 140px;
     width: 100vw;
-    height: 57%;
+    height: 62%;
     text-align: center;
    }
    .dropdown {

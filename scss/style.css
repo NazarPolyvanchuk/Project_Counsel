@@ -4,7 +4,7 @@
 
 .unbreakable-container {
   width: 200px;
-  margin-left: 40px;
+  margin-left: 30px;
   margin-top: 40px;
   margin-bottom: -10px; }
 
@@ -134,7 +134,10 @@ span {
   .menu__icon {
     display: inline-block;
     margin-top: 50px;
-    margin-right: 20px; } }
+    margin-right: 3px; }
+
+  .unbreakable-container {
+    margin-left: 4px; } }
 @media screen and (max-width: 999px) and (max-width: 999px) {
   .conctainer {
     display: flex;
@@ -181,7 +184,7 @@ span {
   #menu__links {
     margin-top: 140px;
     width: 100vw;
-    height: 57%;
+    height: 62%;
     text-align: center; }
 
   .dropdown {
@@ -327,7 +330,14 @@ header {
 
 .section-2-bg {
   width: 100%;
-  background: #ececec; }
+  background: #d1d1d1;
+  background: -moz-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d1d1d1), color-stop(14%, #e2e2e2), color-stop(78%, #fefefe), color-stop(100%, #fefefe));
+  background: -webkit-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -o-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -ms-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: linear-gradient(to right, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1 ); }
 
 .section-2 {
   width: 1170px;
@@ -424,7 +434,15 @@ header {
   height: 688px;
   display: grid;
   align-items: flex-start;
-  justify-content: center; }
+  justify-content: center;
+  background: #d1d1d1;
+  background: -moz-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d1d1d1), color-stop(14%, #e2e2e2), color-stop(78%, #fefefe), color-stop(100%, #fefefe));
+  background: -webkit-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -o-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -ms-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: linear-gradient(to right, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1 ); }
   .section-4 .box-top-section-4 {
     width: 1170px;
     height: 210px;
@@ -607,7 +625,15 @@ header {
   height: 800px;
   display: grid;
   align-items: flex-start;
-  justify-content: center; }
+  justify-content: center;
+  background: #d1d1d1;
+  background: -moz-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d1d1d1), color-stop(14%, #e2e2e2), color-stop(78%, #fefefe), color-stop(100%, #fefefe));
+  background: -webkit-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -o-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: -ms-linear-gradient(left, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  background: linear-gradient(to right, #d1d1d1 0%, #e2e2e2 14%, #fefefe 78%, #fefefe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#fefefe', GradientType=1 ); }
   .section-8 .box-top-section-8 {
     width: 1170px;
     height: 210px;
@@ -846,9 +872,9 @@ header {
     width: 330px;
     margin: 0 0; }
     .bottom .box-right h1 {
-      transform: translate(138%, -17%); }
+      transform: translate(138%, -10%); }
     .bottom .box-right a {
-      transform: translate(125%, 169%); }
+      transform: translate(130%, 188%); }
 
   .bottom .box-left {
     width: 0%;
@@ -998,12 +1024,15 @@ header {
 @media screen and (max-width: 320px) {
   .section-1 {
     flex-wrap: wrap;
-    height: 1120px;
-    margin: 0 4%; }
+    width: 100%;
+    height: 1100px;
+    margin: 0; }
     .section-1 .box-l-section-1 {
       width: 100%;
       height: 54%;
-      align-items: flex-end; }
+      align-items: flex-end;
+      margin-left: 15px;
+      margin-right: 15px; }
     .section-1 .box-r-section-1 {
       justify-content: flex-start;
       width: 100%;
@@ -1011,10 +1040,10 @@ header {
       .section-1 .box-r-section-1 .square-1 {
         width: 220px;
         height: 450px;
-        margin-left: 35px; }
+        margin-left: 48px; }
       .section-1 .box-r-section-1 .square-2 {
         width: 330px;
-        height: 320px;
+        height: 220px;
         transform: translate(-58px, 120px);
         background-size: contain; } }
 @media screen and (max-width: 1170px) {
@@ -1130,12 +1159,14 @@ header {
     .section-2 .box-r-section-2 {
       width: 100%;
       height: 60%;
-      align-items: flex-end; } }
+      align-items: flex-end;
+      margin-left: 35px;
+      margin-right: 35px; } }
 @media screen and (max-width: 320px) {
   .section-2 {
     flex-wrap: wrap;
-    height: 1360px;
-    margin: 0 4%; }
+    height: 1250px;
+    margin: 0; }
     .section-2 .box-l-section-2 {
       width: 106%;
       height: 33.5%;
@@ -1145,8 +1176,10 @@ header {
         margin-left: -19px; }
     .section-2 .box-r-section-2 {
       width: 100%;
-      height: 65%;
-      align-items: flex-end; } }
+      height: 60%;
+      align-items: flex-end;
+      margin-left: 15px;
+      margin-right: 15px; } }
 @media screen and (max-width: 768px) {
   .section-3 {
     width: 100%;
@@ -1390,7 +1423,7 @@ header {
     justify-content: center; }
     .section-5 .box-section-5 {
       width: 1170px;
-      margin: 0 200px;
+      margin: 0 95px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -1531,12 +1564,13 @@ header {
 @media screen and (max-width: 320px) {
   .section-6 {
     flex-wrap: wrap;
-    height: 1120px;
-    margin: 0 4%; }
+    height: 1100px; }
     .section-6 .box-r-section-6 {
       width: 100%;
       height: 54%;
-      align-items: flex-end; }
+      align-items: flex-end;
+      margin-left: 15px;
+      margin-right: 15px; }
     .section-6 .box-l-section-6 {
       justify-content: flex-start;
       width: 100%;
@@ -1544,11 +1578,11 @@ header {
       .section-6 .box-l-section-6 .square-1 {
         width: 220px;
         height: 450px;
-        margin-left: 35px; }
+        margin-left: 48px; }
       .section-6 .box-l-section-6 .square-2 {
         width: 330px;
-        height: 320px;
-        transform: translate(-62px, 111px);
+        height: 220px;
+        transform: translate(-57px, 130px);
         background-size: contain; } }
 @media screen and (max-width: 1024px) {
   .section-7 {
@@ -1742,19 +1776,19 @@ header {
     right: 50px; } }
 @media screen and (max-width: 460px) {
   #myBtn {
-    bottom: 50px;
+    bottom: 20px;
     /* Place the button at the bottom of the page */
-    right: 50px; } }
+    right: 20px; } }
 @media screen and (max-width: 378px) {
   #myBtn {
-    bottom: 40px;
+    bottom: 20px;
     /* Place the button at the bottom of the page */
-    right: 50px; } }
+    right: 20px; } }
 @media screen and (max-width: 320px) {
   #myBtn {
-    bottom: 40px;
+    bottom: 20px;
     /* Place the button at the bottom of the page */
-    right: 50px; } }
+    right: 20px; } }
 @media screen and (max-width: 426px) {
   #movie {
     background: url("img/sect-2.jpg") center;
