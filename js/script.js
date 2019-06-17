@@ -45,7 +45,6 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  $('body,html').animate({scrollTop: top}, 4500,);
 }
 // -----
 
@@ -65,5 +64,22 @@ function myFunction() {
   }
 }
 // -----
+
+// Получить видео c конкретным id
+var video = document.getElementById("myVideo");
+
+// Получить кнопку
+var btn = document.getElementById("myBtn");
+
+// Функция запуска, остановки видео и замены текста на кнопке
+function myFunction() {
+if (video.paused) {
+  video.play();
+  btn.innerHTML = "Пауза";
+} else {
+  video.pause();
+  btn.innerHTML = "Запуск";
+}
+}
   
 
