@@ -20,6 +20,17 @@ window.onload = function() {
   })(jQuery);
 // -----
 
+//Slow Scroll Menu
+$(document).ready(function(){
+  $("#menu__links").on("click","a", function (event) {
+      event.preventDefault();
+      var id  = $(this).attr('href'),
+      top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1500,);
+  });
+});
+// -----
+
 // Go Top
 window.onscroll = function() {scrollFunction()};
 
@@ -38,32 +49,21 @@ function topFunction() {
 }
 // -----
 
-//Slow Scroll Menu
-$(document).ready(function(){
-      $("#menu__links").on("click","a", function (event) {
-          event.preventDefault();
-          var id  = $(this).attr('href'),
-          top = $(id).offset().top;
-          $('body,html').animate({scrollTop: top}, 1500,);
-      });
-  });
-// -----
-
+// Video Section 6
 // Получить видео c конкретным id
 var video = document.getElementById("myVideo");
-
 // Получить кнопку
 var btn = document.getElementById("myBtn");
-
 // Функция запуска, остановки видео и замены текста на кнопке
 function myFunction() {
-if (video.paused) {
-  video.play();
-  btn.innerHTML = "Пауза";
-} else {
-  video.pause();
-  btn.innerHTML = "Запуск";
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Пауза";
+  } else {
+      video.pause();
+      btn.innerHTML = "Запуск";
+  }
 }
-}
+// -----
   
 

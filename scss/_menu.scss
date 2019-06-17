@@ -104,6 +104,7 @@
          .menu__links-item{
            display: block;
            width: 100vw;
+           margin-top: 35px;
          }
        }
  
@@ -118,7 +119,7 @@
      background-color: #002c66;
      z-index: 1000;
      overflow: auto;
-     line-height: 0.2;
+     line-height: 0;
    }
    
    .menu__links-item {
@@ -147,7 +148,7 @@
    #menu__links {
     margin-top: 140px;
     width: 100vw;
-    height: 62%;
+    height: 57%;
     text-align: center;
    }
    .dropdown {

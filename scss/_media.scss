@@ -321,7 +321,8 @@
 @media screen and (max-width: 378px) {
     .section-1 { 
         flex-wrap: wrap;
-        height: 1024px;
+        height: 1054px;
+        width: 94%;
         .box-l-section-1 {
             width: 100%;
             height: 47%;
@@ -335,7 +336,7 @@
 
             .square-1 {
                 width: 270px;
-                height: 450px;
+                height: 455px;
                 margin-left: 25px;
             }
             .square-2 {
@@ -513,9 +514,12 @@
     .section-2 {
         flex-wrap: wrap;
         height: 1300px;
+        margin: 0;
         .box-l-section-2 {
-            width: 103%;
+            width: 100%;
             height: 35%;
+            margin-right: 0px;
+            margin-left: 12px;
             .sect-2-img {
                 width: 381px;
                 margin-left: -19px;
@@ -838,7 +842,7 @@
         justify-content: center;
         .box-section-5 {
             width: 1170px;
-            margin: 0 200px;
+            margin: 0 122px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -1018,10 +1022,11 @@
     .section-6 { 
         flex-wrap: wrap;
         height: 1024px;
+        margin: 0;
         .box-r-section-6 {
             width: 100%;
             height: 56%;
-            margin-left: 10px;
+            margin-left: 32px;
             align-items: flex-end;
         }
         .box-l-section-6  {
@@ -1032,11 +1037,11 @@
             .square-1 {
                 width: 270px;
                 height: 450px;
-                margin-left: 25px;
+                margin-left: 46px;
             }
             .square-2 {
                 width: 390px;
-                height: 320px;
+                height: 220px;
                 transform: translate(-62px, 111px);
                 background-size: contain;
             }
